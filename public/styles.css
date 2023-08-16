@@ -1,0 +1,255 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #ffffff; /* White text color */
+  }
+  
+  main {
+    background-color: #111111; /* Dark gray main background */
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  form {
+    background-color: #222222; /* Dark gray form background */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    padding: 8rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Darker box shadow */
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #aaaaaa; /* Light gray label text */
+  }
+  
+  input {
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #444444; /* Dark gray border */
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    color: #ffffff; /* White text color */
+    background-color: #333333; /* Dark gray input background */
+  }
+  
+  input:focus {
+    border-color: #6a00ff;
+  }
+  
+  button {
+    background-color: #8000ff; /* Purple button */
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6200d6; /* Darker purple button on hover */
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+  }
+  
+
+
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  main {
+    background-color: rgb(255, 225, 221);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    padding: 8rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+  }
+  input {
+    padding: 1rem;
+    outline: none;
+    border: 1px solid beige;
+    border-radius: 5px;
+  }
+  button {
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+  }
+
+
+ 
+   */
+
+
+
+
+
+   /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  main {
+    background-color: rgb(255, 225, 221);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    padding: 8rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: bold;
+  color: #333333;
+  }
+
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555555;
+  }
+
+  input {
+    padding: 1rem;
+    outline: none;
+    border: 1px solid beige;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    border: 1px solid #dddddd;
+  }
+
+  input:focus {
+    border-color: #6a00ff;
+  }
+
+  button {
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    width: 12rem;
+    color: white;
+    align-self: center;
+    font: 400 1rem sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+  }
+
+  button:hover {
+    background-color: #2980b9; /* New button hover color */
+  /* }
+  
+  .error {
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+  } */ 
+
+  
+
+
+ 
+  
